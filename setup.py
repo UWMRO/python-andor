@@ -43,6 +43,7 @@ setup(name='Andor',
           'numpy>=1.11',
           'Cython>=0.24'
       ],
+      version="1.0.0",
       ext_modules=[
       #  Extension("Andor.andorSDK", ["Andor/c_andorSDK.c","Andor/andorSDK.pyx"],
       #         libraries = ['andor']),
